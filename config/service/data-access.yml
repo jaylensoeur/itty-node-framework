@@ -1,0 +1,3 @@
+#UserDao Reference
+userDaoInterface:
+  path: /src/dao/user-dao

@@ -1,0 +1,14 @@
+# main config file
+server:
+  port: 4000
+
+template:
+  engine: hbs
+  directory: src/view/templates
+
+database:
+  type: mongoDB
+  connection: mongodb://localhost:27017/blogr
+
+session:
+  type: database

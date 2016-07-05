@@ -1,0 +1,14 @@
+imports:
+   - { resource: 'config/service/data-access.yml' }
+blogController:
+  path: /src/controller/blog-controller
+  dependencies: [userDaoInterface]
+
+
+#HomeController Reference
+homeController:
+  path: /src/controller/home-controller
+
+#ErrorController Reference
+errorController:
+  path: /src/controller/error-controller

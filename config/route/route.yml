@@ -1,0 +1,40 @@
+default:
+  path: /
+  defaults: { controller: Home:index}
+  methods: [get]
+
+# asdasdsad
+#asdads
+blog_show:
+  path: /blogs/:id
+  defaults: { controller: Blog:show}
+  methods: [get]
+
+#asdads
+#asdasd
+blog_list:
+  path: /blogs
+  defaults: { controller: Blog:list}
+  methods: [get]
+
+blog_create:
+  path: /blogs
+  defaults: { controller: Blog:create}
+  methods: [post]
+
+blog_update:
+  path: /blogs/:id
+  defaults: { controller: Blog:update}
+  methods: [post, put]
+
+
+
+  blog_deletess:
+    path: /blogsd/:id
+    defaults: { controller: Blog:opps}
+    methods: [delete]
+
+error_404:
+  path: '*'
+  defaults: { controller: Error:index}
+  methods: [all]

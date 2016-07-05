@@ -1,0 +1,10 @@
+imports:
+   - { resource: 'config/config.yml' }
+
+server:
+  port: 3000
+
+session:
+  type: session
+  secret: the_salty_salt_pieN27122oqwe!
+
